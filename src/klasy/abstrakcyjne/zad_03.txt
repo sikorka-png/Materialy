@@ -1,0 +1,20 @@
+Stwórz abstrakcyjną klasę Person z polami Name, Surname, Pesel.
+Klasa Person będzie posiadała metody:
+- getBirthday() - zwraca date urodzenia
+- sayWhoAmI() - printuje imie i nazwisko
+- sayWhatAmITeacheingOrLearning() - abstrakcyjna metoda, która pozwoli wypisywać lekcje / przedmioty osoby
+
+Stwórz klasę Student, która będzie dziedziczyła po klasie Person.
+Niech student posiada zbiór wszystkich lekcji na jakie uczęszcza.
+- Student powinien mieć możliwość dopisania nowej lekcji (jeśli taka lekcja jest już na jego planie niech wypisze sie "You are already attending these classes")
+- Student powinien mieć możliwość wypisania się z lekcji (jeśli taka lekcja nie istnieje na jego planie niech wypisze sie "You are not attending these classes")
+- Student powinien posiadać metodę, która pozwala mu sprawdzić, czy jego kolega chodzi na takie same zajęcia jak on.
+W przypadku kiedy chodzi niech na ekranie wypisze się " Great, we are learning the same subjects".
+Jeśli nie, program powinien wypisać lekcje, które nie występują u kolegów
+- Student powinien posiadać również swoje wszystkie oceny z danego przedmiotu
+
+Stwórz klasę Teacher, która będzie dziedziczyła po klasie Person.
+Niech nauczyciel posiada wszystkie lekcje, których może uczyć.
+- Nauczyciel powinien mieć możliwość dopisania nowego przedmiotu (jeśli taki przedmiot jest już na jego planie niech wypisze sie "You already have these classes")
+- Nauczyciel powinien mieć możliwość usuniecia przedmiotu (jeśli taki przedmiot nie istnieje na jego planie niech wypisze sie "You don't have these classes")
+- Nauczyciel powinien mieć możliwosć wystawiania oraz usuwania ocen z danego przemiotu danemu uczniowi

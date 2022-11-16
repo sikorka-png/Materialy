@@ -1,0 +1,11 @@
+Do zadanka ponizej mozesz bazowac na kodzie z poprzednich zajec (klasy bastrakcyjne zad_01):
+
+Zadanie
+- jesli student nie ma podanej lekcji niech wywoluje wyjatek NoSuchLessonException()
+- jesli student ma juz taka lekcje to niech wywoluje wyjatek LessonExistsException()
+- jesli nauczyciel wystawia ocene ktora nie jest z przedzialu 1-6 niech wywola sie NoSuchGradeException()
+- jesli nauczyciel chce wystawic ocene z lekcji ktorej nie prowadzi niech wywola sie exception NoSuchLessonException()
+
+niech NoSuchLessonException() dziedziczy po IOException,
+LessonExistsException() dzeidziczy po RunTimeException,
+NoSuchGradeException() dziedzyczy po Exception

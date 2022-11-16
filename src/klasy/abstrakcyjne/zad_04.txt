@@ -1,0 +1,41 @@
+Utwórz klasę abstrakcyjną pojazd z polami:
+- LocalDate rocznik
+- String kolor
+oraz metodami
+- podajRocznik() - zwraca rocznik
+- zmienKolor(String kolor) - zmienia kolor 
+
+Utwórz klasę abstrakcyjną pojazdCzterokołowy z polami:
+- String rodzajOpon
+- String rodzajNapedu
+oraz metodami
+- zmienOpony(String opony) - zmienia rodzaj opon
+
+Utwórz klasę abstrakcyjną jednoślad z polami:
+- bool maDach
+
+Utwórz klaśe sportowy, dziedziczący po klasie pojazdCzterokołowy z polami:
+- int ilość koni
+- int wygrane wyścigi
+- bool laskiLecą
+oraz metodami
+- czyLaskiLeca() - zwraca czy fura podoba sie dziewczyna
+
+Utworz klase traktor, dziedziczący po klasie pojazdCzterokołowy z polami:
+- int wielkosc
+- int rodzaj opon
+
+Utwórz klasę ścigacz, dziedziczący po klasie jednoślad z polami:
+- int ilość koni
+- bool dwuosobowy
+
+Utwórz klasę rower, dziedziczący po klasie jednoślad z polami:
+- int maBłotniki
+- String rodzajRoweru
+oraz metodami
+- jeździj(int kilometry) - zwraca stringa o przejechanych kilometrach
+
+Niech każda klasa ma możliwośc wypisania wszystkich swoich cech
+W klasie Main przetestuj działanie całego zadania
+Zastanów się:
+- czy można zmienić działalność metod w klasach abstrakcyjnych?

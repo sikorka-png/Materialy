@@ -1,0 +1,31 @@
+Stworz klase pracownik z polami:
+- String imie
+- String nazwisko
+- String pesel
+
+Stworz klase pilot dziedziczacy po pracowniku z polami:
+- int nrSamolotu
+- int numer licencji
+- boolean pracuje
+i z metodami:
+- lec() - gdzie metoda ta sprawdza czy pilot pracuje (jesli tak wywola metode pozegnajLotnistko, w przeciwnym wypadku
+rzucony zostanie wyjatek
+
+Stworz klase pracownikPolecony dziedziczacy po pracowniku z polami:
+- String imiePolecajcaego
+
+Stworz klase pracownikPrzyjety dziedziczacy po pracownikPolecony z polami
+- int stawka
+
+Stworz klase pracownikOdrzucony dziedziczacy po pracownikPolecony z polami
+- String powod zwolnienia
+
+Dodatkowo niech pilot implementuje interface z metodami
+- abtract String wydajKomende()
+- default String pozegnajLotnisko()
+
+Dodatkowo niech pracownikPolecany implementuje interface daneOsobowe z metodami
+- String przedstaw sie
+
+UWAGA!!! powinienes zastanowic sie jakiego rodzaju klasy uzyc (zwykla czy abstract)
+przyjmujemy ze klasy ktore maja najwiecej cech wspolnych sa abtract
