@@ -1,0 +1,11 @@
+Utwórz klasę Counter reprezentującą liczniki. Składowe klasy Counter:
+
+a) pole private int state - stan licznika.
+
+b) konstruktor public Counter() - ustawia początkowy stan licznika na 0.
+c) metody:
+
+* int state() - zwraca aktualny stan licznika,
+* Counter inc() - zwiększa stan licznika o 1 i zwraca licznik,
+* Counter dec() - zmniejsza stan licznika o 1 i zwraca licznik,
+* void reset() - zeruj licznik.

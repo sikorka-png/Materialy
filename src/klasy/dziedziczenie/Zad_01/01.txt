@@ -1,0 +1,13 @@
+Przygotuj klasę Telefon z polami String interfejsKomunikacyjny, Color color. Następnie przygotuj metode void zadzwon(String numer), która wyświetli na konsoli numer pod który dzwonimy.
+
+Utwórz klasę Komorka dziedziczącą po klasie Telefon i dodającą jako pole tablicę ostatnich 10 połączeń wykonanych z tego telefonu.
+
+Utwórz klasę Smartfon dziedziczącą po klasie Komorka i dodającą jako pole tablicę Osoba[] znajomi, gdzie klasa Osoba zawiera trzy pola: String imie, String nazwisko, String numer.
+
+Zaimplementuj we wszystkich klasach metodę void wyswietlHistoriePolaczen(), która wyświetli:
+
+• „brak historii” - jeśli zostanie wywołana na rzecz obiektu klasy Telefon;
+• listę ostatnio wybieranych numerów np: „123-456-789” - jeśli zostanie wywołana na rzecz obiektu klasy Komorka;
+• listę znajomych do których ostatnio dzwoniliśmy w postaci „Jan Kowalski 123-456-789” gdy osoba jest w tablicy znajomych lub sam numer w przeciwnym przypadku - jeśli zostanie wywołana na rzecz obiektu klasy Smartfon.
+
+Utwórz tablicę przechowującą elementy klasy Telefon i wypełnij ją wszystkimi rodzajami telefonów. Następnie wykonaj przynajmniej 10 połączeń na każdym z telefonów z tablicy zapewniając że co drugi wybierany numer będzie dzwonił do znajomego (z listy osób w smartfonie). Na koniec wyświetl historię połączeń wszystkich telefonów.

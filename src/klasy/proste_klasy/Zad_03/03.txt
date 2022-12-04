@@ -1,0 +1,27 @@
+Utwórz klasę Point reprezentującą obiekty - punkty w układzie współrzędnych Oxy. Klasa Point definiuje:
+a) dwa pola typu int opisujące współrzędne punktu.
+b) konstruktory:
+* bezparametrowy - inicjuje punkt (0,0),
+* z jednym parametrem typu int - inicjuje punkt na Ox z daną współrzędną x,
+* z dwoma parametrami typu int - inicjuje punkt z podanymi współrzędnymi.
+c) metody:
+* int getX() - zwraca współrzędną x,
+* int getY() - zwraca współrzędną y,
+* void setX(int a) - ustawia wartość współrzędnej x,
+* void setY(int b) - ustawia wartość współrzędnej y,
+* void show() - wyprowadza na konsolę informację o punkcie,
+* double distance(Point p) - zwraca odległość między danym punktem a punktem p,
+* boolean parallel(Point p) - zwraca true jeśli odcinek łączący punkt p z danym punktem jest równoległy do jednej z osi układu współrzędnych, false w przeciwnym przypadku.
+
+Utwórz klasę Circle reprezentujacą obiekty - koła na płaszczyźnie. Klasa Circle definiuje:
+a) pola typów Point (z zadania I) - środek koła oraz int - promień koła
+b) konstruktor z dwoma parametrami - iniciuje koło z podanym środkiem i promieniem.
+c) metody:
+* Point getCenter() - zwraca środek koła,
+* int getRadius() - zwraca promień koła,
+* void setCenter(Point c) - ustawia środek koła
+* void setRadius(int r) - ustawia promień koła,
+* double area() - zwraca pole powierzchni koła,
+* void show() - wyprowadza na konsolę informację o kole,
+* boolean isBigger(Circle c) - sprawdza, czy dane koło jest większe niż koło c,
+* boolean inside(Point p) - sprawdza, czy punkt p leży wewnątrz danego koła,

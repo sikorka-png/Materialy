@@ -1,0 +1,2 @@
+Utwórz klasę Owoc z polami String nazwa i double waga. Nazwa owocu zostanie dostarczona do konstruktora klasy, natomiast waga zostanie zainicjowana losową wartością z przedziału 0.5- 0.8.
+Następnie utwórz metodę wypisz tak aby wyświetlała informacje o nazwie i wadze owocu.

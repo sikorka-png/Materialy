@@ -1,0 +1,10 @@
+Utwórz klasę IntArr reprezentującą tablice elementów całkowitych. Składowe klasy IntArr:
+a) pole typu tablicowego private int[] arr
+b) konstruktory:
+* IntArr(int n) - iniciuje obiekt zawierający tablicę n elementów typu int z losowymi wartościami,
+* IntArr(int[] arr) - iniciuje obiekt zawierający tablicę będącą kopią podanej tablicy arr.
+b) metody:
+* void show() - wyprowadza na konsolę zawartość tablicy,
+* int max() - zwraca największą wartość tablicy,
+* IntArr sorted() - zwraca obiekt z posortowaną tablicą,
+* IntArr reversed() - zwraca obiekt z odwróconą tablicą.

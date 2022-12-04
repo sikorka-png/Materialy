@@ -1,0 +1,6 @@
+Utwórz klasę Walec z prywatnymi polami promień i wysokość. Zainicjuj pola w konstruktorze. Dodaj metodę show wyświetlającą:
+
+• pole powierzchni podstawy,
+• objętość walca
+
+Przedstaw wykorzystanie tej klasy na przykładzie.

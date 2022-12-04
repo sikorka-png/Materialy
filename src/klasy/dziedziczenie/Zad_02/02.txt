@@ -1,0 +1,7 @@
+Stwórz klasę Avatar posiadającą pola prywatne characterName, side(Good, Evil), capacity, hand(przechowuje obiekt klasy Stuff), Bagpack tablica przechowująca obiekty klasy Stuff. Pamiętaj o utworzeniu konstruktora, getterów i seterów. Musisz również dodać metody pozwalające na zarządzanie ekwipunkiem uwzględniając zmienną capacity uwzględniającą maksymalny udźwig postaci (rzeczy trzymane w dłoniach jak i w plecaku, pamiętaj też, że postać może nie posiadać żadnych przedmiotów).
+
+Utwórz klasę Stuff, która będzie reprezentowała rzeczy. Z polami name oraz weight. Przesłoń metodę toString aby wypisywała informacje o przedmiocie. Wszystkie pola klas będą inicjowane przez konstruktor.
+
+Klasa Weapon będzie dziedziczyła po klasie Stuff. Dodatkowo będzie posiadała pola baseAttack określającą moc ataku oraz bonus określający procentowy bonus do ataku.
+Klasa Warrior będzie dziedziczyła po klasie Avatar. Klasa Avatar oraz Warrior będzie posiadła metodę attack, dla obiektów klasy Avatar zwróci baseAttack broni którą trzyma w dłoni, dla obiektów klasy Warrior zwróci wartość baseAttack zwiększoną o procent podany pod zmienną bonus dla danej broni.
+Dodaj klasę Monster własnego projektu, która pozwoli na walkę postaci z potworem. Dodaj komendy pozwalające na prostą grę w konsoli. Pomyśl o rozszerzeniu gry na przykład o jakiś element losowy, który pozwoli na ciekawszą rozgrywkę.

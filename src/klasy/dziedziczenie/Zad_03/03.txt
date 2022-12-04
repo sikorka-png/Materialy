@@ -1,0 +1,16 @@
+Utwórz klasę Rachunek reprezentującą rachunki bankowe. Klasa Rachunek definiuje:
+
+a) pole typu Osoba opisujące właściciela rachunku, pole typu double opisujące stan rachunku bankowego. Osoba jest klasą z jednego z poprzednich zadań,
+b) konstruktor inicjujący właściciela i stan rachunku,
+c) metody:
+* boolean wplata(double) - operacja wpłaty podanej kwoty, zwracająca true w przypadku sukcesu operacji, false w przeciwnym przypadku,
+* boolean wyplata(double) - operacja wypłaty podanej kwoty, zwracająca true w przypadku sukcesu operacji, false w przeciwnym przypadku (np. kiedy na rachunku jest za mało środków),
+* boolean przelew(Rachunek, double) - operacja przelewu podanej kwoty z rachunku na podany (jako argument metody) rachunek, zwracająca true w przypadku sukcesu operacji, false w przeciwnym przypadku,
+* void aktualizacja() - wyświetlająca komunikat: "Rachunek podstawowy".
+* public String toString() - zawierająca informacje o rachunku w postaci obiektu typu String.
+
+Utwórz klasę Konto, dziedziczącą po klasie Rachunek, reprezentującą konta bankowe. Dodatkowo, klasa Konto posiada pole statyczne typu double opisujące oprocentowanie oraz metodę statyczną void zmienOprocentowanie(double) go zmieniającą. Wszystkie konta klasy Konto mają wspólne oprocentowanie. Klasa Konto przedefiniowuje następujące metody (z klasy Rachunek): aktualizacja() - aktualizującą stan konta po doliczeniu odsetek na podstawie bieżącego oprocentowania oraz toString(...).
+
+Utwórz klasę KontoVIP, dziedziczącą po klasie Konto, reprezentującą konta bankowe z dodatkowymi przywilejami. Dodatkowo, klasa KontoVIP posiada pola opisujące indywidualne oprocentowanie oraz limit debetu (tj. najmniejsza ujemna wartość, jaką może mieć stan konta). Dopisz konstruktor inicjujący właściciela, stan konta, oprocentowanie oraz limit debetu. Klasa KontoVIP przedefiniowuje następujące metody (z klas Rachunek/Konto): wypłata(...), przelew(...), aktualizacja(), toString(...).
+
+Utwórz tablicę przechowującą obiekty klasy Rachunek i wypełnij ją wszystkimi rodzajami rachunków/kont bankowych. Następnie wykonaj operacje: wpłata, wypłata, przelew, zmiana oprocentowania, ... za pomocą odpowiednich metod. Na koniec aktualizuj i wyświetl wszystkie informacje o rachunkach/kontach za pomocą metod aktualizacja() i toString().

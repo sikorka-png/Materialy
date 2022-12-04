@@ -1,0 +1,8 @@
+Utwórz klasę o nazwie Vector. Zawierającą jedno pole typu int[] oraz metody
+
+• show() - Wyświetlająca znaki znajdujące się w tablicy.
+• add(int var) - Dodającą nowy element z tablicy o ile nie znajduje się on już w tablicy.
+• remove(int var) - Usuwający element z tablicy jeżeli znajduje się on w tablicy.
+• removeAt(int var) - Usuwa element na podanym indeksie o ile on istnieje.
+• sort() - Sortujący tablice w sposób malejący.
+• find(int var) - zwracający true o ile taki element istnieje w tablicy
