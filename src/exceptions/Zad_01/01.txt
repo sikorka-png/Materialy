@@ -1,0 +1,11 @@
+Korzystając z poprzedniego zadania (klasy abstrakcyjne zadanie 2)
+-	jeśli student nie ma podanej lekcji niech wywołuje wyjątek NoSuchLessonException()
+-	jeśli student ma już taka lekcje to niech wywołuje wyjątek LessonExistsException()
+-	jeśli nauczyciel wystawia ocenę która nie jest z przedziału 1-6 niech wywoła się NoSuchGradeException()
+-	jeśli nauczyciel chce wystawić ocenę z lekcji której nie prowadzi niech wywoła się exception NoSuchLessonException()
+
+niech NoSuchLessonException() dziedziczy po IOException,
+LessonExistsException() dzeidziczy po RunTimeException,
+NoSuchGradeException() dziedzyczy po Exception
+
+Na samym końcu obsłuż wszystkie błędy.

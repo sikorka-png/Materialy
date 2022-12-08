@@ -1,0 +1,6 @@
+Napisz program, który wczyta od Ciebie Twoją datę urodzenia. Jeżeli podałeś datę późniejszą niż data dzisiejsza, to niech program rzuci wyjątek InvalidBirthDate z odpowiednim komunikatem.
+Jeżeli data jest poprawna to niech wypisze:
+-	ile dni już żyjesz
+-	ile miesięcy już żyjesz
+-	ile lat już żyjesz
+-	program wypisuje, w który dzień tygodnia się urodziłeś

@@ -1,0 +1,2 @@
+Stwórz interface przyśpiesz z metodą przyśpiesz(), która będzie wypisywała Stringa. Stwórz klasę Samochód, która będzie implemntować dany interfejs.
+Za pomocą klas anonimowych stwórz 3 obiekty klasy samochód, każda z metod przyśpiesz() ma zwracać inny komunikat.

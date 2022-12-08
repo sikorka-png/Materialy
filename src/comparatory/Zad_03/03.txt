@@ -1,0 +1,1 @@
+Wyjaśnij kiedy stworzysz Comparator za pomocą klasy a kiedy za pomocą klasy anonimowej/lambdy. Posortuj dowolną klasę używając wszysgkich tych sposobów.

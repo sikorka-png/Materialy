@@ -1,0 +1,2 @@
+Napisz program, który próbuje pobrać liczbę z konsoli, a następnie wyświetla ją na ekranie.
+Jeśli podana wartość nie jest liczbą, program powinien wyświetlić odpowiedni komunikat i zapytać ponownie o liczbę.

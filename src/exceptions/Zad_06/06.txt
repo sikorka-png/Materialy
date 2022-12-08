@@ -1,0 +1,2 @@
+Stwórz program, który pozwoli odczytać z pliku zawarte informacje. Jeśli plik nie istnieje to obsłuż tą sytuację i stwórz go.
+Metoda createNewFile() z klasy File tworzy nowy plik.

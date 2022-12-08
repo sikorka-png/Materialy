@@ -1,0 +1,13 @@
+Stwórz klasę osoba, która będzie przechowywać poniższe informacje
+-	imie
+-	nazwisko
+-	pesel (na jego podstawie tworzymy datę urodzenia)
+Dodatkowo stwórz również klasę Lokal, która będzie zawierać poniższe informacje
+-	nazwa
+-	adres
+-	minimalny wiek pozwalający na wejście
+-	maksymalną ilość gości przebywających jednocześnie w lokalu
+-	listę przebywających gości
+Program powinien umożliwiać dodawanie gości do lokalu. W przypadku próby wejścia osoby młodszej niż wymagany minimalny wiek rzuć ZaMlodyException. W przypadku, gdy do lokalu będzie próbowała wejść osoba ponad limit rzuć wyjątek ZaDuzoGosciException. W jednym momencie, osoba może przebywać tylko w jednym lokalu.
+Stwórz asocjację pomiędzy osobą i zamówień. Dodaj zamówienie do osoby. Obsłuż sytuację, gdy przypisywane zamówienie jest nullem.
+

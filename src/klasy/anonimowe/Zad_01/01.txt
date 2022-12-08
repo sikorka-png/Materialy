@@ -1,0 +1,1 @@
+Stwórz instację klasy anonimowej przy użyciu interfejsu Anonimowy, który posiada metodę info() a następnie ją wywołaj.

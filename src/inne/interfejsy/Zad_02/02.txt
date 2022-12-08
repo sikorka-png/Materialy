@@ -1,0 +1,5 @@
+Stwórz dwa podstawowe interfejsy
+-	Miś
+-	MiśMaliś
+, które mają mieć po jednej metodzie (innej).
+Następnie stwórz interfejs, który dziedziczy po dwóch powyżych o nazwie TruboMaliś. Zobacz jakie metody dostępne są na danym obiekcie w zależności od typu zmiennej, do którego przypiszemy obiekt.

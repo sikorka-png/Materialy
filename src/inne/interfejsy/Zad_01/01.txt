@@ -1,0 +1,12 @@
+Stwórz klasę
+-	Kwadrat (bok)
+-	Koło (promień)
+-	Prostokąt (bok a, bok b)
+
+Znajdź figurę
+-	o największym polu
+-	o najmniejszym obwodzie
+-	figury, które mają pole większe niż 30cm^2
+
+Jaki byt wykorzystasz do stworzenia hierarchi klas i dlaczego?
+Praca domowa zrobienie tego za pomocą drugiego sposobu klasy abstrakcyjnej/interfejsu.

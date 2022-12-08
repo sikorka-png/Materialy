@@ -1,0 +1,1 @@
+Wyjaśnij kiedy byś zaimplementował interfejs Comparable a kiedy Comparator.

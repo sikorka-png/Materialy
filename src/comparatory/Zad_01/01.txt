@@ -1,0 +1,5 @@
+Stwórz klasę pracownik (imię, nazwisko, wiek, pensja, rozmiar koszulki). Stórz kilku pracowników i dodaj ich do kolekcji. Następnie przy użyciu metody Collections.sort(lista, comparator) posortuj kolekcję rosnąco według:
+-	pensji (double)
+-	wieku
+-	rozmiaru koszulki
+-	alfabetycznie

@@ -1,0 +1,6 @@
+Stwórz klasę Piekarnik (czas, temperatura). Pierkarnik ma różne warianty warianty rozszerzenia jego funkcji pieczenia o pakiety. Oto trzy z nich
+MałyKucharz - ma specjalną funckję pieczenia frytek
+Gessler - ma specjalną funckję pieczenia ślimaków oraz wołowiny
+MasterChef - ma specjalną funkcję babeczek
+
+Stwórz w mainie piekarnik z konfiguracją, którą chciałbyś posiadać w domu.

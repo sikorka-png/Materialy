@@ -1,0 +1,8 @@
+Stwórz serwis randkowy dla programistów.
+Stwórz klasę:
+programista (imię, nazwisko, pensja oraz listę języków, które zna)
+kobieta (imię, nazwisko, rozmiar biustu oraz IQ)
+
+Programista może chodzić na randki (nazwa, miejsce, kobieta). Napisz metodę, która wylicza % szans na kolejną randkę. Algorytm zależy od miejsca np. restauracja +10%, kino +20% oraz od kobiety 25% * IQ/100. Jeżeli szansa wynosi ponad 100% programista staje się zbyt pewny siebie i szansa na kolejne spotkanie spada do 20%.
+
+Dodaj kobiecie atrybut ulubione miejsce, które jest losowane z listy miejsc. Jeśli ulubione miejsce kobiety jest inne, niż te w które zabrał ją programista rzuć wyjątek ZleMiejsceNaRandkeException z informacją o ulubionym miejscem kobiety.
