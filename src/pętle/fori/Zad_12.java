@@ -17,17 +17,17 @@ package pętle.fori;
 public class Zad_12 {
     public static void main(String[] args) {
         for (int i = 1; i < 12; i++) {
-            for (int j = 1; j < 11; j++) {
+            for (int j = 1; j < 12; j++) {
                 if ((i > 1 && j <= i && i < 7) || (i >= 7 && j < 13 - i)) {
                     System.out.print(j);
-                } else if (j >= 11 - i && i < 8) {
-                    System.out.print(11 - j);
+                } else if (j >= 12 - i && i < 7) {
+                    System.out.print(12 - j);
                 } else {
-                    if (i < 8) {
+                    if (i < 7) {
                         System.out.print(i);
                     } else {
                         if (i >= i * 2 - j) {
-                            System.out.print(11 - j);
+                            System.out.print(12 - j);
                         } else {
                             System.out.print(12 - i);
                         }

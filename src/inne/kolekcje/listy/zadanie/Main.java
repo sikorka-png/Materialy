@@ -15,10 +15,8 @@ import java.util.List;
  * 9) Napisz metode ktora jako parametr przyjmuje liste intow oraz inta i zwraca liste intow ktore sa wieksze niz podany jako parametr int
  * 10) Wyswietl ile razy było podane imie podane jako parametr
  * 11) Napisz metode ktora jako parametr przyjmuje Liste Stringow oraz znak. Zwroc:
- * 	- liste zawierajaca wszystkie
- * 	- Stringi ktore zawieraja podana znak
- * 	- Lista: Ania Kasia Grzegorz Tomek Magda a znak to a, to lista zwracana powinna
- * 	- zawierac Ania Kasia Magda
+ * 	- liste zawierajaca wszystkie Stringi ktore zawieraja podana znak
+ * 	- Lista: Ania Kasia Grzegorz Tomek Magda a znak to a, to lista zwracana powinna zawierac Ania Kasia Magda
  * 12) Napisz metode ktora jako parametr przyjmuje 2 Listy Stringow i zwraca liste elementów ktore sa na obu listach
  * 13) Napisz metode ktora dla inne.kolekcje.listy intów zwroci roznice pomiedzy jej najwiekszym, a najmniejszym elementem
  * 14) Napisz metode ktora przyjmuje liste Stringow i zwraca listę (intow) indeksow wszystkich elementow na liscie, ktore sa takie same jak parametr metody,

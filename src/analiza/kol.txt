@@ -1,0 +1,138 @@
+1. Co powstaje w wyniku kompilacji programu zapisanego w języku jawa?
+	a. program interpretowalny przez maszyne wirtualna
+	b. java
+	c. html
+	d. plik z rozszeczeniem .class
+
+2. Jaka jest główna metoda Javy pozwalająca na kompilacje i uruchomienie programu?
+
+3. Zakładając int i, float f, boolean b, char c, ktore z ponizszych sa poprawne?
+	a. i = f;
+	b. i = c;
+	c. b = i;
+	d b = f;
+	
+4. Instrukcja if wykona:
+	a. instrukcje nastepujaca po orzeczeniu jesli wartosc logiczna tego orzeczenia wynosi false
+	b. instrukcje w sekcji else jesli wartosc logiczna tego orzeczenia wynosi true
+	c. instrukcje w obu sekcjach jesli wartosc logiczna tego orzeczenia wynosi true
+	d. zadna odpowiedz nie jest poprawna
+	
+5. Ktore z ponizszych petli wykonaja sie przynajmniej raz?
+	a. while
+	b. for
+	c. do while
+	d. zadna z powyzszych
+	
+6. Ktore ze zdan sa prawdziwe?
+	a. zmienna tablicowa jest zawsze zainicjowana
+	b. elementy indeksowane sa od wartosci 0
+	c. w tablicach wielowymiarowych ilosc elementow w wierszach zawsze jest taka sama
+	d. odwolanie sie do nieistejacego elementu tablicy skutkuje bledem
+	e. elementy indeksowane sa od wartosci 1
+	
+7. Jaka jest roznica miedzy FIFO i FILO
+
+8. W celu podniesienia wyjatku w Java trzeba posluzyć się?
+	a. try catch
+	b. throw
+	c. throws
+	d. klasa dziedziczaca po Exception
+	
+9. Ktoce z wlasciwosci this sa prawdziwe
+	a. metody statyczne nie moga odwolywac sie do zmiennej this
+	b. kazdy obiekt posiada zmienna this
+	c. this powstaje podczas tworzenia obiektu
+	d. uzycie this w konstruktorze jest niemozliwe, poniewaz obiekt jeszcze nie istnieje
+	
+10. Deklarując klase nalezy pamietac
+	a. w kazdej klasie zostaje umieszczony domyślny konstruktor pusty
+	b. klasa bedzie zawierala metode equals porownujaca snaty wszystkich pol tej klasy
+	c. toString bedzie wyswietlal informacje o polozeniu w pamieci
+	
+11. Ktore odpowiedzi sa poprawne?
+	a. int tab[] = {}
+	b. Object tab[] = new String[6]
+	c. boolean tab[][] = false, true, false
+	d. String tab[] = null
+	
+12. Ktore ze zmiennych zostaly zainicjowane domyslnymi wartosciami?
+	a. int wrt = 0
+	b. boolean logi = false
+	c. Object obj = new Object()
+	d. String str = null
+
+13. Uzupelnij cialo metody, tak aby zwracana byla przekatna tablicy gdy suma elementow tej tablicy jest nieparzysta lub suma elmentow srodkowej kolumny w przeyciwnym wypadku
+
+public int[] metoda(int[][] slowo)
+{
+}
+
+14. Uzupelnij cialo metody, tak aby zwracana byla wartosc true gdy dostarczony argument zawiera znaki reprezentujace liczby lub wartosc false w przeciwnym wypadku
+
+public boolean metoda(char[] slowo)
+{
+}
+
+15. Czy poniższy program wyprowadzi napis "Ala ma kota" ?
+class A {
+
+  public static void main(String[] args) {
+    String[] txt = { "Ala" };
+    new A().change(txt);
+    System.out.println(txt[0]);
+    }
+
+void change(String[] s) { s[0] = s[0] + " ma kota "; }
+
+}
+
+16. Jezeli int[] x = { 1, 2 }, y = { 1, 2, 3 }; to:
+	a. po wykonaniu instrukcji x = y; y[0] = 2; x[0] będzie równe 1
+	b. po wykonaniu instrukcji x = y; y[0] = 2; x[0] będzie równe 2
+	c. y = x spowoduje skopiowanie tablicy x do tablicy y
+
+17. napisz program ktory sprawdza czy podana liczba jest palindromem
+
+18. klasa z kantorem CurrencyExchange
+zawiera ona tablice o dlugosci 3, oraz konstruktor ktory przyjmuje 3 parametry double np, euro, dolar, funt (zapamietujemy wartosci)
+metoda validate -> sprawdza czy wszystie kursy sa ponizej 5. Jesli tak zwraca obiekt CurrencyExchange, a w przeciwnym wypadku rzuci blad
+metoda exchange(double amount, char znak) -> zwraca nam zamieniona wartosc amount na zlotowki z danej waluty, jesli waluta (znak) nie istnieje zwroc blad (czyli jesli pamietamy euro, dolar i funt a podamy jen to mamy blad)
+
+19. napisz funkcje ktora zwraca liczbe elementow tablicy. Metoda ta ma byc rekurencyjna i nie moze zawirać pętli.
+20. (transpozycja)napisz program ktory zamienia tablice z takiej
+{
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+}
+
+na taka
+{
+    {1, 4, 7},
+    {2, 5, 8},
+    {3, 6, 9}
+}
+
+Wesoła liczba:
+liczba naturalna zdefiniowana jako obliczanie sumy kwadratów cyfr składających się na liczbę. Powtarzamy tę operację dla kolejnych wyników tak długo, aż uzyskamy liczbę 1 lub wyniki zaczną się powtarzać. Jeżeli w wyniku procesu otrzymaliśmy 1, pierwotna liczba jest liczbą wesołą. W przeciwnym przypadku jest liczbą niewesołą (lub smutną[1]).
+Przykładowo 7 jest liczbą wesołą, ponieważ podlega następującej sekwencji obliczeń:
+72 = 49
+42 + 92 = 97
+92 + 72 = 130
+12 + 32 + 02 = 10
+12 + 02 = 1.
+
+Magiczna liczba:
+Stwórz program, który wczytuje liczbę od użytkownika i sprawdza, czy jest ona "magiczną liczbą". Magiczna liczba to taka, której suma cyfr jest równa iloczynowi cyfr.
+
+Szyfr Cezara:
+Napisz funkcję realizującą szyfr Cezara, która przesunie litery w podanym zdaniu o określoną liczbę miejsc. Użytkownik powinien podać zdanie i liczbę przesunięcia.
+
+Wypełnij tablicę spiralem:
+Stworzysz program, który wypełni tablicę kwadratową liczbami naturalnymi w sposób spiralny, zaczynając od lewego górnego rogu.
+
+Macierz magiczna:
+Stwórz program, który sprawdza, czy dana macierz jest macierzą magiczną, gdzie suma elementów w każdym wierszu, kolumnie i obu przekątnych jest taka sama.
+
++ kolos.pdf z IntelliJ

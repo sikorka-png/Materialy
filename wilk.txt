@@ -1,0 +1,4 @@
+zaki,2020,false,tron,3;
+Kill,2018,false,1,[paweł,2021,true;];
+roki,2021,false,egzon,4;
+lina,2014,false,2,[huskar,2021,true;iglon,2020,true;];

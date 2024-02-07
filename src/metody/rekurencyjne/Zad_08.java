@@ -1,24 +1,33 @@
 package metody.rekurencyjne;
 
+import java.util.Scanner;
+
 /**
  * Utwórz iteracyjną metodę wyświetlającą wszystkie permutacje cyfr wprowadzonej z klawiatury liczby
  */
 public class Zad_08 {
     public static void main(String[] args) {
-        char[] slowo = {'k', 'a', 'j', 'a', 'k'};
-        boolean czyPalindrom = palindromRekurencyjnie(slowo, 0, slowo.length - 1);
-        System.out.println(czyPalindrom);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Wprowadź liczbę: ");
+        String number = scanner.nextLine();
+        generatePermutations(number.toCharArray(), 0);
     }
 
-    public static boolean palindromRekurencyjnie(char[] tab, int poczatek, int koniec) {
-        if (tab[poczatek] != tab[koniec]) {
-            return false;
+    public static void generatePermutations(char[] digits, int index) {
+        if (index == digits.length - 1) {
+            System.out.println(new String(digits));
+        } else {
+            for (int i = index; i < digits.length; i++) {
+                swap(digits, index, i);
+                generatePermutations(digits, index + 1);
+                swap(digits, index, i);
+            }
         }
-        poczatek++;
-        koniec--;
-        if (koniec > 0) {
-            return palindromRekurencyjnie(tab, poczatek, koniec);
-        }
-        return true;
+    }
+
+    private static void swap(char[] digits, int i, int j) {
+        char temp = digits[i];
+        digits[i] = digits[j];
+        digits[j] = temp;
     }
 }
